@@ -8,8 +8,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">    
+    <meta name="description" content="The video platform
+for sports made simple. Powerful and easy. Easy analysis game and share for your team.">
+    <meta name="author" content="vLoop Inc">    
     <meta name="google-site-verification" content="i5EuSo9-W0Rf_XV0TFQj0e3veSJSPus0DUmuUufOeG0" />
     <link rel="shortcut icon" href="favicon.ico?v=4">  
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'> 
@@ -43,6 +44,14 @@
       ]
     }
     </script>
+    <script>
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'Main', 'GoToPortal', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
 </head> 
 
 <body class="home-page">   
@@ -80,8 +89,8 @@
                                 <li><a href="contact.html">Contact</a></li>                    
                             </ul>                            
                         </li> --><!--//dropdown-->                         
-                        <li class="nav-item"><a href="https://portal.vloop.io/sign_in">Log in</a></li>
-                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="https://portal.vloop.io/sign_up">Sign Up Free</a></li>
+                        <li class="nav-item"><a href="https://portal.vloop.io/sign_in" onclick="trackOutboundLink('https://portal.vloop.io/sign_in'); return false;">Log in</a></li>
+                        <li class="nav-item nav-item-cta last"><a class="btn btn-cta btn-cta-secondary" href="https://portal.vloop.io/sign_up" onclick="trackOutboundLink('https://portal.vloop.io/sign_up'); return false;">Sign Up Free</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->                     
@@ -102,7 +111,7 @@
         <div class="container text-center">                
             <h2 class="title">The video platform<br />for sports made simple</h2>
             <p class="intro">Powerful<!-- <br />  --> and easy</p>
-            <p><a class="btn btn-cta btn-cta-primary" href="https://portal.vloop.io/sign_up">Try vLoop Free</a></p>   
+            <p><a class="btn btn-cta btn-cta-primary" href="https://portal.vloop.io/sign_up" onclick="trackOutboundLink('https://portal.vloop.io/sign_up'); return false;">Try vLoop Free</a></p>   
             <a href="activities.html">
                 <button type="button" class="play-trigger btn-link">
                     NOT A SPORTS TEAM? CHECK OUT VLOOP FOR OTHER ACTIVITIES
@@ -306,7 +315,7 @@
             <div class="container">
                <h2 class="title">Ready to get started?</h2>
                <p class="intro">The world's best <span class="counting">coaches and athletes</span> are using vLoop</p>
-               <p><a class="btn btn-cta btn-cta-primary" href="https://portal.vloop.io/sign_up" target="_blank">Get vLoop Now</a></p>
+               <p><a class="btn btn-cta btn-cta-primary" href="https://portal.vloop.io/sign_up" target="_blank" onclick="trackOutboundLink('https://portal.vloop.io/sign_up'); return false;">Get vLoop Now</a></p>
             </div><!--//container-->
         </section><!--//cta-section-->
         
