@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /community/wp-admin
+Disallow: /community/wp-includes
+Disallow: /community/wp-content/plugins
+Disallow: /community/wp-content/cache
+Disallow: /community/wp-content/themes
+Disallow: /community/trackback
+Disallow: */trackback
+Disallow: */*/trackback
+Disallow: */*/feed/*/
+Disallow: */feed
+Disallow: /community/*?*
+Disallow: /community/tag
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /assets
+Disallow: /FTPvLoop
+
+Host: vloop.io
